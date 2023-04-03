@@ -1,0 +1,20 @@
+{
+    "name": "debug",
+    "author": {
+        "name": "MG_REX"
+    },
+    "version": "0.0.1",
+    "description": "A debug component tester",
+    "productName": "DEBUG",
+    "private": true,
+    "scripts": {
+        "lint": "eslint --ext .js,.ts,.vue ./",
+        "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "engines": {
+        "node": "^18 || ^16 || ^14.19",
+        "npm": ">= 6.13.4",
+        "yarn": ">= 1.21.1"
+    }
+}
